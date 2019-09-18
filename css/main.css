@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    float: left;
+    list-style: none;
+    padding: 10px 25px;
+}
+
+nav li a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+nav li a:hover{
+    border-bottom: 3px solid #F57F17;
+}
+
+nav{
+    margin: 0 200px;;
+}
+
+.clr{
+    clear:both;
+}
+
+#jumbotron{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../img/tomo.JPG");
+    background-size: cover;
+    background-position: top;
+    height: 730px;
+    width: 100%;
+    overflow: visible;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.siteMain{
+    text-align: center;
+    margin-top: 370px;
+    color: white;
+}
+
+.siteMain h1{
+    margin-bottom: 0;
+    letter-spacing: 0.5em;
+}
+
+.siteMain p{
+    margin: 0;
+    padding-bottom: 15px;
+    letter-spacing: 0.3em;
+}
+
+.white{
+    color:white;
+    letter-spacing: 0.4em;
+}
+
+.desno{
+    float: right;
+}
+
+#about-me-page{
+    background-color: #212121;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    width:100%;
+    overflow: hidden;
+}
+
+#about-me-container{
+    margin: 100px 200px;
+}
+
+#about-me-container h1{
+    letter-spacing: 0.15em;
+    font-weight: normal;
+}
+
+#skills .box{
+    max-width: 300px;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#skills .box h6{
+    font-weight: normal;
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    border-bottom: white 1px solid;
+}
+
+#projects-page{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    overflow: hidden;
+}
+
+#projects-container{
+    margin: 100px 200px;
+}
+
+#projects-container h1{
+    font-weight: 300;
+    font-size: 22px;
+}
+
+#projects-container th{
+    border-top: #e9ecef 1px solid;
+    border-bottom: #e9ecef 2px solid;
+    text-align: left;
+    padding: 0.75rem;
+    font-family: 'Roboto';
+}
+
+#projects-container td{
+    padding: 0.75rem;
+    border-top: #e9ecef 1px solid;
+    line-height: 1.5;
+}
+
+#interests{
+    line-height: 2;
+    margin-top: 130px;
+}
+
+#interests h1{
+    border-bottom: #e9ecef 2px solid;
+}
