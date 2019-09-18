@@ -50,3 +50,29 @@ git commit -m "commit description" //m is used to add message about the commit y
 //always do git commit before pushing, cause that command actually doesn't everything in the background to make sure we added
 //stuff to the file
 git push    //only "pushes the changes online"
+//always git add file that is changed then git commit and then push
+
+
+/**If we need a variable that it's contents we wouldn't wanna change we would use const **/
+/*Const can't be changed unless an object is stored inside const variable then we can change it's fields*/
+/* Examples */
+const name = "Tomislav";
+name = "Ivan"; //-> error
+
+const obj = {};
+obj.firstName = "Tomislav";
+obj.lastName = "Keskic"; //no errors so far
+obj = {}; //-> error
+
+
+/* let variable */
+//let keyword is used when we want to use variable inside just one block of code and after that it will just dissapear
+for(let i=0; i<10; i++){
+    console.log(i); //0-9
+}
+
+console.log(i) //undefined
+
+//if we do the same thing with var the variable would still exist depending on the scope
+
+
