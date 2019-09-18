@@ -42,4 +42,8 @@ displayMessage(message, "Tomislav"); // -> It's the information age Tomislav
 /*npm install -g http-server*/
 
 
-    
+//Git
+git add [filename]//tells git to track this file
+git status
+git init
+git commit -m "commit description" //m is used to add message about the commit you're trying to make
