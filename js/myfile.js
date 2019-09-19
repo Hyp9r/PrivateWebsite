@@ -76,3 +76,9 @@ console.log(i) //undefined
 //if we do the same thing with var the variable would still exist depending on the scope
 
 
+let myArray = ["one", "two", "three", "four"];
+myArray.forEach((value, index, array) => {
+    console.log(value);
+    console.log(index);
+    console.log(array);
+});
