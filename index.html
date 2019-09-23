@@ -16,7 +16,7 @@
                     <ul>
                         <li><a href="#about-me-page">Tomislav Keskic</a></li>
                         <li><a href="#projects-page">Projects</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                         <li class="desno"><a href="">Contact</a></li>
                     </ul>
                         
@@ -91,7 +91,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Rise of ancient warrior</td>
+                                <td><a href="#game">Rise of ancient warrior</a></td>
                                 <td>A 2D RPG game developed with the help of libgdx framework. I did stuff like collision detection. Tilemaps, and made tilemap editor, so I can more easly develop maps, load and save them into files.</td>
                                 <td>Java</td>
                             </tr>
@@ -113,27 +113,40 @@
                         </tbody>
                     </table>
 
-                    <div class="project-gallery">
+                    <div class="project-gallery" id="game">
+
                         <figure class="gallery__item--1 img-hover-zoom--brightness" onmouseover="hoverEffect(this)" onmouseout="hoverOut(this)">
-                            <img src="img/personal-website.png" class="gallery_img" alt="Image 1">
-                            <button class="sourceButton">View Source</button>
-                            <button>Live version</button>
+                            <div class="cardContainer">
+                                <img src="img/personal-website.png" class="gallery_img" alt="Image 1">
+                                <div class="sourceButton"><a href="https://github.com/Hyp9r/PrivateWebsite">View Source</a></div>
+                                <div class="liveButton"><a href="">Live version</a></div>
+                            </div>    
                         </figure>
+
                         <figure class="gallery__item--2 img-hover-zoom--brightness" onmouseover="hoverEffect(this)" onmouseout="hoverOut(this)">
-                            <img src="img/game.png" class="gallery_img" alt="Image 2">
-                            <button>View Source</button>
-                            <button>Live version</button>
+                            <div class="cardContainer">
+                                <img src="img/game.png" class="gallery_img" alt="Image 2">
+                                <div class="sourceButton"><a href="https://github.com/Hyp9r/The-Rise-of-Ancient-Warrior">View Source</a></div>
+                                <div class="liveButton"><a href="">Live version</a></div>
+                            </div>
                         </figure>
+
                         <figure class="gallery__item--3 img-hover-zoom--brightness" onmouseover="hoverEffect(this)" onmouseout="hoverOut(this)">
-                            <img src="img/blockchain.jpg" class="gallery_img" alt="Image 3">
-                            <button>View Source</button>
-                            <button>Live version</button>
+                            <div class="cardContainer">
+                                <img src="img/blockchain.jpg" class="gallery_img" alt="Image 3">
+                                <div class="sourceButton"><a href="https://github.com/Hyp9r/P2P">View Source</a></div>
+                                <div class="liveButton"><a href="">Live version</a></div>
+                            </div>
                         </figure>
+
                         <figure class="gallery__item--4 img-hover-zoom--brightness" onmouseover="hoverEffect(this)" onmouseout="hoverOut(this)">
-                            <img src="img/nutrifit.png" class="gallery_img" alt="Image 4">
-                            <button>View Source</button>
-                            <button>Live version</button>
+                            <div class="cardContainer">
+                                <img src="img/nutrifit.png" class="gallery_img" alt="Image 4">
+                                <div class="sourceButton"><a href="https://github.com/Hyp9r/PrivateWebsite">View Source</a></div>
+                                <div class="liveButton"><a href="">Live version</a></div>
+                            </div>
                         </figure>
+
                     </div>
 
                     <div id="interests">

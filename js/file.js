@@ -1,5 +1,3 @@
-var tableDescription = document.getElementsByTagName(td);
-
 function highlightNext(element, color) {
     var next = element;
     do { // find next td node
@@ -29,3 +27,4 @@ function hoverEffect(element){
 function hoverOut(element){
     element.style.zIndex = "1";
 }
+
